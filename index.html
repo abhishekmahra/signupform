@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Ludiflex | Login</title>
+
+</head>
+<body>
+         
+
+
+<div class="box">
+    <div class="container">
+        <p id="alert"></p>
+        <form action="https://formspree.io/f/mdovvovv" method="POST" name="signupForm" id="signupForm">
+        <div class="top">
+            <span><h2>want to signup?</h2></span>
+            <header>Register here</header>
+        </div>
+
+        <!-- <div class="input-field">
+            <input type="text" class="input" placeholder="firstname" id="fn">
+            <i class='bx bx-user' ></i>
+        </div> -->
+
+        <div class="input-field">
+            <input type="text" name="username" class="input" placeholder="username" id="ln" required>
+            <i class='bx bx-user' ></i>
+        </div>
+
+
+        <div class="input-field">
+            <input type="text" name="email" class="input" placeholder="email" id="email" type="email" required>
+            <i class='bx bx-user' ></i>
+        </div>
+
+        <div class="input-field">
+            <input type="Password" name="password" class="input" placeholder="enter Password or auto-generate" minlength="8" id="pass" required>
+            <i class='bx bx-lock-alt'></i>
+        </div>
+
+        <button type="button" class="auto" id="gen">generate Password</button>
+
+
+
+            <input type="checkbox" id="checkbox" onclick="pwdToggle()">
+            <label class="showPass">Show Password</label>  
+
+        <div class="input-field">
+            <input type="submit" class="submit" value="submit" id="submit" onclick="return handleSubmit()">
+          
+        </div>
+    </div>
+     </div> 
+    </form>
+</div>
+
+<footer>
+    <div class="contactme">
+        Created by Abhishek Singh Mahra.<br>
+    </div>
+    
+    <div class="social-icon">
+
+        <!-- <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a> -->
+        <a href="#"><i class='bx bxl-github'></i></a> 
+        
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div>
+</footer>
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.1);
+    outline: none;
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s ;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.auto{
+    background: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+    block-size: 20px;
+    height: 23px;
+    padding: 1px;
+    border-radius: 99px;
+    font-size:small;
+    border: none;
+    color: black;
+    width: 130px;
+    cursor: pointer;
+    transition: .3s ;
+    margin-left: 3px;
+}
+.auto:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.checkbox{
+    margin-top: 10px;
+    margin-left: 100000px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+footer{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 34px;
+    
+    text-align: left;
+    align-items: normal;
+   
+}
+
+.social-icon a i{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top:32px;
+    cursor: pointer;
+    transition: .5s ease;
+    
+}
+.social-icon a:hover i{
+    transform: scale(1.2);
+}
+
+
+.contactme{
+    margin-left: 29px;
+    
